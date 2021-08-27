@@ -1,0 +1,13 @@
+{
+    "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "APIMUrl": "https://management.azure.com/subscriptions/{your subscription ID}/resourceGroups/{your resource group name}/providers/Microsoft.ApiManagement/service/{your APIM service name}",
+    "APIMAPIVersion": "2020-12-01",
+    "HealthCheckEndpoint": "", // The path to the API you want to call for the health check
+    "SubscriptionKey": "", // APIM subscription key to invoke the health check API
+    "DisableGatewayUrl": "", // The URL of the Azure Function used to disable a regional APIM gateway
+    "DisableGatewayKey": "" // The function key used to invoke the disable gateway function
+  }
+}
